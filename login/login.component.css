@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Maven Pro";
+    src: local("Maven Pro"), url('../assets/fonts/MavenPro-Regular.ttf') format("truetype");
+}
+
+@media (min-width: 501px){
+    .star {
+
+    position: absolute;
+    width: 552.8px;
+    height: 557.77px;
+    left: -269px;
+    top: 262.82px;
+
+    background: #567BFF;
+    transform: rotate(-48deg);
+
+    }
+    mat-card{
+        align-items: center;
+        background-color: rgb(137, 218, 255);
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: ;
+
+
+    }
+    div {
+        font-size: 1;
+    }
+    mat-card {
+        box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+        0 4px 4px 0 rgba(0,0,0,1), 
+        0 1px 3px 0 rgba(0,0,0,1);
+        text-align: left;
+        box-shadow:#000000;
+        box-shadow: 10px;
+        font-family: monospace;
+        position: absolute;
+        left: 10%;
+        right: 72%;
+        top: 20%;
+        bottom: 40%;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        color: #000000;
+
+    }
+    h1 {
+        /* Online Banking. Simplified */
+ 
+        position: absolute;
+        left: 5%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+    }
+}
+
+
+
+
+@media (max-width: 500px){
+    .star {
+
+    position: absolute;
+    width: 552.8px;
+    height: 557.77px;
+    left: -269px;
+    top: 262.82px;
+
+    background: #567BFF;
+    transform: rotate(-48deg);
+
+    }
+    mat-card{
+        box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+        0 4px 4px 0 rgba(0,0,0,1), 
+        0 1px 3px 0 rgba(0,0,0,1);
+        align-items: center;
+        background-color: rgb(137, 218, 255);
+        border-radius: 20px;
+        font-size: 20px;
+
+
+    }
+    div {
+        font-size: 20px;
+    }
+    mat-card {
+        box-shadow:#000000;
+        box-shadow: 10px;
+        font-family: monospace;
+        position: absolute;
+        left: 10%;
+        right: 15%;
+        top: 20%;
+        bottom: 35%;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        color: #000000;
+
+    }
+    h1 {
+        /* Online Banking. Simplified */
+ 
+        position: absolute;
+        left: 5%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        font-family: 'Maven Pro';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000000;
+    }
+}
